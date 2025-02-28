@@ -277,7 +277,7 @@ class Player:
 
         if player_input == "flee":
             print("You decided to flee!")
-            return self.flee(bonus)  
+            return self.flee()  
 
         elif player_input == "fight":
 

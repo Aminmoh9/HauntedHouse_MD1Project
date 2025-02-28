@@ -97,7 +97,7 @@ class Room:
     
     def show_image(self):
         # Use IPython display to show the image
-        display(Image(self.image_url))
+        display(Image(self.image_url,width=300, height=300))
         
 
 class Item:
@@ -412,7 +412,7 @@ player = Player(Foyer)
 mansion_image_url="mansion.jpeg"
 
 def show_mansion_image():
-    display(Image(mansion_image_url))
+    display(Image(mansion_image_url,width=400, height=400))
 
 show_mansion_image()
 print("     __________| |____")
